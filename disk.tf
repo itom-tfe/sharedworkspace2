@@ -3,7 +3,7 @@ variable "subscriptionId" {}
 variable "tenantId" {}
 variable "secretKey" {}
 
-provider "azurearm" {
+provider "azurerm" {
   client_id = var.clientId
   subscription_id = var.subscriptionId
   tenant_id = var.tenantId
